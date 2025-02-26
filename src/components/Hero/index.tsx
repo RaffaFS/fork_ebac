@@ -27,6 +27,8 @@ const HeroContainer = styled.div`
 `
 
 const HeroTitle = styled.h2`
+  width: 80%;
+  margin: 0 20%;
   font-family: Gloock, serif;
   font-size: 48px;
 `
