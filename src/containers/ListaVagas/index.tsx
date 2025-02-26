@@ -110,7 +110,7 @@ const ListaVagas = () => {
   )
 
   return (
-    <div>
+    <VagasContainer>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
       <ul className={styles.vagas}>
         {vagasFiltradas.map((vag) => (
@@ -126,7 +126,7 @@ const ListaVagas = () => {
           />
         ))}
       </ul>
-    </div>
+    </VagasContainer>
   )
 }
 

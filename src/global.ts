@@ -1,4 +1,4 @@
-import { createGlobalStyle, temaPadrao } from "styled-components";
+import { createGlobalStyle, TemaPadrao } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root {
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export const tema: temaPadrao = {
+export const Tema: TemaPadrao = {
     colors: {
         primary: "#a7727d",
         secondary: "#f9f5e7",
